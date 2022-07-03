@@ -31,7 +31,7 @@ class Character {
     }
 
     // Methods
-    public function describe() {
+    public function read() {
         echo '<pre>';
         print_r($this);
         echo '</pre>';
